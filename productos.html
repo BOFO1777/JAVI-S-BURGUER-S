@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo2.png"></a>
+        <h1>JAVI'S BURGUERS</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>MENU MAMALON</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="hamburguesa1.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Hamburguesa sencilla</h2>
+                    <p>ps sencilla pa</p>
+                    <p class="precio">$40.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="hamburguesa2.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>Cangreburguer</h2>
+                    <p>ps como la del bob esponja</p>
+                    <p class="precio">$45.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="hamburguesa3.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Mac</h2>
+                    <p>pa no decir la de macdonals</p>
+                    <p class="precio">$30.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="combo1.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Combo sencillo</h2>
+                    <p>una hamburguesa con papas</p>
+                    <p class="precio">$95.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="combo2.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Combo love</h2>
+                    <p>Pa compartir con la piba </p>
+                    <p class="precio">$135.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="pollo1.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Alitas</h2>
+                    <p>ps alitas</p>
+                    <p class="precio">$45.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="combo4.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Bonele combo</h2>
+                    <p>papas y boneles</p>
+                    <p class="precio">$150.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="hamburguesa4.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Cangreburguer 2.0</h2>
+                    <p>ps la de bob pero mas wena</p>
+                    <p class="precio">$100.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 JAVI'S BURGUERS. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: BURGUERSJAVIS2025@GMAIL.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
